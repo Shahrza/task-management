@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "organizationName": "Express",
+    "phoneNumber": "123456",
+    "address": "Baku",
+    "userName": "janedoe",
+    "email": "janedoe@google.com",
+    "role": "admin",
+    "users": [
+      {
+        "id": 11,
+        "firstName": "Jake",
+        "lastName": "White",
+        "userName": "jakewhite",
+        "email": "jakewhite@google.com",
+        "role": "user"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "John",
+    "lastName": "Doe",
+    "userName": "johndoe",
+    "email": "johndoe@google.com",
+    "role": "user",
+    "tasks": [
+      {
+        "id": 22,
+        "title": "Learn JS",
+        "description": "Test",
+        "deadline": "3 day",
+        "status": "Done",
+        "assignee": ["Jack"]
+      }
+    ]
+  }
+]
